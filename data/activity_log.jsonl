@@ -11,3 +11,13 @@
 {"timestamp": "2026-05-30 10:28:49.900517", "event": "VERIFY", "user_id": "Najm", "score": 0.43891932629337693, "decision": "FAIL"}
 {"timestamp": "2026-05-30 10:30:49.540511", "event": "VERIFY", "user_id": "AK", "score": 0.49512728533544126, "decision": "FAIL"}
 {"timestamp": "2026-05-30 10:31:40.108201", "event": "VERIFY", "user_id": "Anurag", "score": 0.9937342593779115, "decision": "PASS"}
+{"timestamp": "2026-06-03 22:25:59.082840", "event": "ENROLL", "user_id": "Aj"}
+{"timestamp": "2026-06-03 22:26:20.905440", "event": "VERIFY", "user_id": "Aj", "score": 1.0, "decision": "PASS"}
+{"timestamp": "2026-06-03 22:26:41.174244", "event": "VERIFY", "user_id": "Aj", "score": 0.13866431886603214, "decision": "FAIL"}
+{"timestamp": "2026-06-03 22:27:23.254732", "event": "ENROLL", "user_id": "Ak"}
+{"timestamp": "2026-06-03 22:27:54.050429", "event": "VERIFY", "user_id": "Ak", "score": 0.8311386099396748, "decision": "INCONCLUSIVE"}
+{"timestamp": "2026-06-03 22:28:28.464146", "event": "VERIFY", "user_id": "Ak", "score": 0.26187932332197017, "decision": "FAIL"}
+{"timestamp": "2026-06-03 22:28:59.477255", "event": "ENROLL", "user_id": "Anu"}
+{"timestamp": "2026-06-03 22:29:24.028368", "event": "VERIFY", "user_id": "Anu", "score": 0.9920032574099031, "decision": "PASS"}
+{"timestamp": "2026-07-26 22:03:15.389998", "event": "ENROLL", "user_id": "Anurag"}
+{"timestamp": "2026-07-26 22:03:31.676765", "event": "VERIFY", "user_id": "Anurag", "score": 1.0, "decision": "PASS"}
