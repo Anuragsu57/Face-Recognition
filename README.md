@@ -1,105 +1,266 @@
-# Face Recognition System
+# 🤖 AI Face Recognition System
 
-A Face Recognition System that uses computer vision and machine learning techniques to detect, recognize, and identify human faces from images or real-time video streams. The application provides accurate facial recognition by extracting unique facial features and comparing them with stored data, making it suitable for attendance systems, security applications, and identity verification solutions.
+An AI-powered Face Recognition System built using **Python, DeepFace, FastAPI, Streamlit, TensorFlow, and OpenCV**. The application detects, registers, and recognizes human faces by generating facial embeddings and comparing them with stored data.
 
-## Features
+This project demonstrates the practical implementation of Artificial Intelligence and Computer Vision for real-world applications such as attendance systems, identity verification, and security solutions.
 
-* Real-time Face Detection
-* Face Recognition and Identification
-* Image and Webcam Support
-* Multiple Face Detection
-* High Recognition Accuracy
-* User-Friendly Interface
-* Fast Processing and Performance
-* Face Encoding and Matching
+---
 
-## Technologies Used
+## ✨ Features
 
-### Programming Language
+- 👤 Face Registration
+- 🧠 AI-based Face Recognition using DeepFace
+- 📷 Image Upload Support
+- 🔍 Multiple Face Detection
+- ⚡ FastAPI REST API Backend
+- 🎨 Interactive Streamlit Dashboard
+- 📊 Facial Embedding Generation
+- 📈 Recognition Confidence Score
+- 🚀 Fast and Efficient Processing
+- 🖥️ Easy-to-Use Interface
 
-* Python
+---
 
-### Libraries & Frameworks
+## 🛠️ Tech Stack
 
-* OpenCV
-* face_recognition
-* NumPy
-* dlib
-* Tkinter (Optional GUI)
+| Category | Technology |
+|----------|------------|
+| Programming Language | Python |
+| AI Framework | DeepFace |
+| Machine Learning | TensorFlow |
+| Computer Vision | OpenCV |
+| Backend | FastAPI |
+| Frontend | Streamlit |
+| Data Processing | NumPy, Pandas |
+| API Server | Uvicorn |
 
-### Tools
+---
 
-* Jupyter Notebook
-* VS Code
+## 📂 Project Structure
 
-## Project Workflow
-
-1. Capture image or video stream.
-2. Detect faces in the frame.
-3. Extract facial features (encodings).
-4. Compare extracted features with stored face data.
-5. Identify and display the matched person.
-
-## Installation
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/your-username/face-recognition-system.git
+```
+face_recognition_project/
+│
+├── app/
+│   ├── main.py
+│   ├── services.py
+│   ├── models.py
+│   ├── utils.py
+│   └── ...
+│
+├── demo/
+│   └── streamlit_app.py
+│
+├── data/
+│
+├── tests/
+│
+├── requirements.txt
+│
+└── README.md
 ```
 
-2. Navigate to the project directory:
+---
+
+## 🚀 Installation
+
+### Clone the Repository
 
 ```bash
-cd face-recognition-system
+git clone https://github.com/Anuragsu57/Face-Recognition.git
 ```
 
-3. Install dependencies:
+### Navigate to the Project
+
+```bash
+cd Face-Recognition
+```
+
+### Create Virtual Environment
+
+```bash
+python -m venv venv
+```
+
+### Activate Virtual Environment
+
+**Windows**
+
+```bash
+venv\Scripts\activate
+```
+
+**Linux / macOS**
+
+```bash
+source venv/bin/activate
+```
+
+### Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Run the application:
+---
+
+# ▶️ Running the Project
+
+## Start FastAPI Backend
 
 ```bash
-python main.py
+python -m uvicorn app.main:app --reload
 ```
 
-## Screenshots
+Backend URL
 
-Add screenshots of the face detection and recognition results here.
+```
+http://127.0.0.1:8000
+```
 
-## Applications
+---
 
-* Attendance Management Systems
-* Security and Surveillance
-* Access Control Systems
-* Identity Verification
-* Smart Monitoring Solutions
+## Start Streamlit Frontend
 
-## Key Skills Demonstrated
+```bash
+streamlit run demo/streamlit_app.py
+```
 
-* Computer Vision
-* Machine Learning Fundamentals
-* Face Detection and Recognition
-* Image Processing
-* OpenCV Development
-* Python Programming
-* Data Preprocessing
-* Feature Extraction
-* Real-Time Video Processing
-* Problem Solving and Debugging
+Frontend URL
 
-## Future Enhancements
+```
+http://localhost:8501
+```
 
-* Deep Learning-Based Recognition
-* Cloud Database Integration
-* Masked Face Recognition
-* Mobile Application Support
-* Real-Time Attendance Tracking
-* Enhanced Security Features
+---
 
-## License
+# 🔄 Project Workflow
+
+1. Upload or register a face image.
+2. Detect face(s) using OpenCV.
+3. Generate facial embeddings using DeepFace.
+4. Store embeddings for registered users.
+5. Compare uploaded image embeddings with stored embeddings.
+6. Display the matched identity along with confidence score.
+
+---
+
+# 📸 Screenshots
+
+### Home Page
+
+> Add screenshot here
+
+```
+images/home.png
+```
+
+---
+
+### Face Registration
+
+> Add screenshot here
+
+```
+images/register.png
+```
+
+---
+
+### Recognition Result
+
+> Add screenshot here
+
+```
+images/result.png
+```
+
+---
+
+# 🎯 Applications
+
+- Smart Attendance System
+- Identity Verification
+- Office Access Control
+- Visitor Management
+- Security Surveillance
+- Employee Authentication
+- AI-powered Face Recognition Systems
+
+---
+
+# 💡 Key Skills Demonstrated
+
+- Artificial Intelligence
+- Computer Vision
+- Face Recognition
+- Deep Learning Fundamentals
+- FastAPI Development
+- Streamlit Development
+- TensorFlow Integration
+- OpenCV Image Processing
+- REST API Development
+- Python Programming
+- Data Processing
+- Problem Solving
+
+---
+
+# 🔮 Future Enhancements
+
+- 🎥 Live Webcam Face Recognition
+- 🗄️ Database Integration (MySQL / PostgreSQL)
+- ☁️ Cloud Deployment
+- 🔐 JWT Authentication
+- 👥 Multi-user Support
+- 📱 Mobile Application
+- 📊 Recognition Analytics Dashboard
+- 🧾 Attendance Report Generation
+
+---
+
+# 📦 Requirements
+
+Main Libraries Used
+
+- DeepFace
+- TensorFlow
+- OpenCV
+- FastAPI
+- Streamlit
+- NumPy
+- Pandas
+- Uvicorn
+- Pillow
+
+Complete dependencies are available in **requirements.txt**.
+
+---
+
+# 👨‍💻 Author
+
+## Anurag Kashyap
+
+B.Tech Computer Science Engineering
+
+🔗 GitHub
+
+https://github.com/Anuragsu57
+
+🔗 LinkedIn
+
+https://www.linkedin.com/in/anurag-kashyap/
+
+---
+
+# ⭐ Support
+
+If you found this project useful, consider giving it a ⭐ on GitHub.
+
+It helps others discover the project and motivates future improvements.
+
+---
+
+## 📄 License
 
 This project is licensed under the MIT License.
